@@ -1,8 +1,18 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    background-size: cover;
 }
+
+header {
+    background-size: cover;
+}
+
+main {
+    padding: 50px;
+    margin: 50px;
+}
+
 
 .pattern {
     width: 100%;
@@ -22,6 +32,7 @@ h1 {
     font-size: 50px;
     padding-top: 10px;
     padding-left: 5px;
+    text-align: center;
 }
 
 #celeste {
@@ -30,7 +41,7 @@ h1 {
 
 strong {
     color: grey;
-    padding-left: 5px;
+    padding-left: 150px;
 }
 
 #data {
@@ -39,20 +50,21 @@ strong {
 }
 
 .imagetim {
-    padding-left: 5px;
+    padding-left: 150px;
     padding-top: 20px;
-    width: 51%;
+    background-size: 200px;
+   
 }
 
 .imagetim2 {
     padding-left: 5px;
     padding-top: 20px;
-    width: 44%;
-    height: 475px;
+    background-size: 200px;
+    
 } 
 
 #description {
-    padding-left: 5px;
+    padding-left: 515px;
     font-size: small;
 }
 
@@ -64,10 +76,12 @@ strong {
 
 h3 {
     font-size: 20px;
+    text-align: center;
 }
 
 .list {
-    padding-left: 25px;
+   padding-left: 50px;
+   text-align: center;
 }
 
 /*table*/
@@ -99,6 +113,7 @@ thead {
     background-color: rgb(78, 212, 212);
 }
 
+
 .monitor {
     background-image: url(../img/monitor.jpg);
     color: white;
@@ -106,6 +121,8 @@ thead {
     padding-bottom: 200px;
     padding-left: 10px;
     background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
 }
 
 .graphic {
@@ -115,12 +132,16 @@ thead {
     padding-bottom: 200px;
     padding-left: 10px;
     background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
 }
 
 p {
     font-size: larger;
+    text-align: center;
 }
 
 li {
     font-size: large;
+    text-align: center;
 }
