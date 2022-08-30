@@ -80,8 +80,7 @@ h3 {
 }
 
 .list {
-   padding-left: 50px;
-   text-align: center;
+    margin-left: 340px;
 }
 
 /*table*/
@@ -143,5 +142,4 @@ p {
 
 li {
     font-size: large;
-    text-align: center;
 }
